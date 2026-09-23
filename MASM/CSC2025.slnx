@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="MASM/MASM.vcxproj" />
+  <Project Path="MASM/MASM.vcxproj" Id="8edca20d-0c4c-4bd3-b947-744b42aef8ee" />
 </Solution>
