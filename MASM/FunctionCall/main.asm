@@ -36,7 +36,8 @@ _writeLine PROC
 	mov		ebp,	esp
 	sub		esp,	4 ; make room for the value
 	push	edi
-	push	esi
+    push    esi
+
 
 
 	; Get stdout handle (-11)
@@ -46,40 +47,38 @@ _writeLine PROC
 
 	;	Subroutine Body
 	mov		eax,	[ebp+8] ; Move paramter 1 (msg) into EAX
-
-    mov     ebx, eax
-
+    mov     esi, eax
+    mov     ecx, 1
 
 	_loop_start:
         ; Read the byte at the address ebx points to into al
-        mov     al, [ebx]
+        mov     al, [esi]
     
         ; Check for the null terminator (end of string)
         cmp     al, 0
         je      _loop_end
 
       
-	    ; Write the single character pointed to by ebx
+	    ; Write the single character pointed to by esi
         push    0
         push    offset written
         push    1                   ; length = 1 character
-        push    ebx                  ; pointer to the character
+        push    esi                  ; pointer to the character
         push    outputHandle
         call    _WriteConsoleA@20
 
 
         ; Move to the next character in the string
-        inc     ebx
+        inc     ecx
+        inc     esi      
         jmp     _loop_start
 
     _loop_end:
+	mov		[ebp-4],	edi
+	mov     eax,        edi
 
-	mov		[ebp-12],	edi
-	add		eax,		[ebp-12]
-
-
-	pop		esi
-	pop		edi
+    pop     esi
+    pop		edi
 	mov	    esp,	ebp
 	pop		ebp
 	ret

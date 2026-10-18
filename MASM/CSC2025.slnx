@@ -9,6 +9,7 @@
   <Project Path="Fibonacci/Fibonacci.vcxproj" Id="9e5740c5-ed0c-4b7f-9108-1c4527ad1a7a" />
   <Project Path="FunctionCall/FunctionCall.vcxproj" Id="003880eb-f5cc-4873-a312-e4f64b734df7" />
   <Project Path="MASM/MASM.vcxproj" Id="6c4a1764-492e-43e3-a96e-f4a7163c9747" />
+  <Project Path="PrintLine/PrintLine.vcxproj" Id="9a1966ed-b193-4ccc-90cc-d59fcd3cc22e" />
   <Project Path="StringBreakDown/StringBreakDown.vcxproj" Id="d534f6c2-f25a-49cd-8090-f518ce672209" />
   <Project Path="SumNum/SumNum.vcxproj" Id="9642f3c4-dec4-4d5b-a610-1785e6d3b63e" />
   <Project Path="SumOfNums/SumOfNums.vcxproj" Id="47e1b408-45c8-4385-b901-6814be55f3a0" />

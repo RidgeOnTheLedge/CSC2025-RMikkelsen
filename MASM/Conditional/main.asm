@@ -6,7 +6,6 @@ extern _WriteConsoleA@20:near
 extern _GetStdHandle@4:near
 
 
-
 .data
 
 ; Numbers for condition
