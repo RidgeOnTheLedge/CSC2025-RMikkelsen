@@ -13,9 +13,7 @@ number4	        DD	40
 .code
 
 main PROC near
-_main:
-
-		
+_main:	
 	mov eax, [number1]
 	mov ebx, [number4]
 

@@ -7,6 +7,7 @@
   <Project Path="ConsoleIO/ConsoleIO.vcxproj" Id="a455143d-61e0-4cc9-8513-a59fbbbb421c" />
   <Project Path="Exchange/Exchange.vcxproj" Id="b57cbec0-d8fc-4c53-95f1-0963067ed845" />
   <Project Path="Fibonacci/Fibonacci.vcxproj" Id="9e5740c5-ed0c-4b7f-9108-1c4527ad1a7a" />
+  <Project Path="FibRecursive/FibRecursive.vcxproj" Id="2d12cd6d-8b46-4886-a4ec-163f6344076d" />
   <Project Path="FunctionCall/FunctionCall.vcxproj" Id="003880eb-f5cc-4873-a312-e4f64b734df7" />
   <Project Path="MASM/MASM.vcxproj" Id="6c4a1764-492e-43e3-a96e-f4a7163c9747" />
   <Project Path="PrintLine/PrintLine.vcxproj" Id="9a1966ed-b193-4ccc-90cc-d59fcd3cc22e" />
